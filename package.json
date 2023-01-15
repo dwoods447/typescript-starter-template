@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-ui": "cd ./ui && npm install && npm run build",
     "build-server": "cd ./server && npm install && npm run serve",
-    "build-project": "npm run build-ui && npm run build-server"
+    "build-project": "npm run build-server && npm run build-ui"
   },
   "author": "Demaria Woods",
   "license": "ISC",
