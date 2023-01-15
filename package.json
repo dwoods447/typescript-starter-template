@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-ui": "cd ./ui && npm install && npm run build",
-    "build-server": "cd ./server && npm install && npm run serve",
+    "build-server": "cd ./server && npm install && npm run start",
     "build-project": "npm run build-ui && npm run build-server"
   },
   "author": "Demaria Woods",

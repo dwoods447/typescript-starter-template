@@ -1,0 +1,9 @@
+
+
+base = "typescript-starter/"
+
+
+[build]
+  command = "npm run build-project"
+  functions = "functions"
+  publish = "public"
