@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-tsc": "tsc",
     "start": "npm run serve",
-    "serve": "node dist/app.ts",
+    "serve": "node dist/app.js",
     "watch-node": "nodemon dist/app.js",
     "watch-ts": "tsc -w"
   },
