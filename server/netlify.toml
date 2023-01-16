@@ -4,5 +4,5 @@
 [build]
   command = "npm run build"
   functions = "functions"
-  publish = "dist/"
+  publish = "dist"
 

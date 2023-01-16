@@ -3,10 +3,10 @@
 [build]
   command = "npm run build"
   functions = "functions"
-  publish = "dist/"
+  publish = "dist"
 
 
 [[redirects]]
-  from = "/some-legacy-routes/*"
+  from = "/*"
   to = "/index.html"
   status = 200
